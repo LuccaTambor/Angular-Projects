@@ -14,4 +14,8 @@ export class HeaderComponent implements OnInit {
 
   title: string  = 'Task Tracker';
 
+  toggleAddTask() {
+    console.log("toggle");
+  }
+
 }
